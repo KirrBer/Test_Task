@@ -1,0 +1,20 @@
+{
+  "objective": "recall_at_precision",
+  "best_value": 0.6071209330877839,
+  "n_trials": 100,
+  "best_params": {
+    "iterations": 744,
+    "depth": 6,
+    "learning_rate": 0.011058862790766264,
+    "l2_leaf_reg": 2.589252989740517,
+    "random_strength": 0.007146302115600968,
+    "bagging_temperature": 0.8770733546747331,
+    "min_data_in_leaf": 34,
+    "border_count": 128,
+    "grow_policy": "Depthwise"
+  },
+  "loss_function": "Logloss",
+  "max_fp": 0,
+  "min_precision": 0.98,
+  "n_folds": 5
+}
